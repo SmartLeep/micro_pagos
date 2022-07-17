@@ -24,7 +24,7 @@ env:
   GKE_ZONE: us-west1   # TODO: update to cluster zone
   DEPLOYMENT_NAME: test-kluster # TODO: update to deployment name
   REPOSITORY: smartleep-repo # TODO: update to Artifact Registry docker repository
-  IMAGE: micro-test-container
+  IMAGE: test-node
 
 jobs:
   setup-build-publish-deploy:
