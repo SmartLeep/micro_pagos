@@ -1,6 +1,6 @@
-
- commonLabels:
+commonLabels:
     app: testAppNode
   resources:
   - deployment.yaml
   - service.yaml
+  - hpa.yml
