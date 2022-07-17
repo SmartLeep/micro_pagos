@@ -15,7 +15,7 @@ spec:
         app: test-node
    spec:
      containers:
-       - image: gcr.io/jothibasu-demo/test-node
+       - image: gcr.io/smartleep-app/test-node
        imagePullPolicy: IfNotPresent
        name: test-node
     dnsPolicy: ClusterFirst
