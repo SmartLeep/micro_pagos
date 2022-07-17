@@ -1,8 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    app: testApp
   name: test-node
 spec:
   replicas: 3
@@ -13,10 +11,7 @@ spec:
     metadata:
       labels:
         app: test-node
-   spec:
-     containers:
-       - image: gcr.io/smartleep-app/test-node
-       imagePullPolicy: IfNotPresent
-       name: test-node
-    dnsPolicy: ClusterFirst
-    restartPolicy: Always
+    spec:
+      containers:
+      - image: gcr.io/smartleep-app/test-node
+        imagePullPolicy: Always
