@@ -19,7 +19,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GAR_LOCATION: ${{ github.sha }} # TODO: update region of the Artifact Registry
+  GAR_LOCATION: us-west1 # TODO: update region of the Artifact Registry
   GKE_CLUSTER: smartleep-cluster    # TODO: update to cluster name
   GKE_ZONE: us-west1-a   # TODO: update to cluster zone
   DEPLOYMENT_NAME: test-kluster # TODO: update to deployment name
