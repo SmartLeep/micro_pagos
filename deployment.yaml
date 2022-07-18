@@ -16,3 +16,4 @@ spec:
       - name: test-kluster
         image: gcr.io/smartleep-app/test-kluster
         imagePullPolicy: Always
+        
