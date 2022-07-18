@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-node
+  name: test-kluster
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: test-node
+      app: test-kluster
   template:
     metadata:
       labels:
-        app: test-node
+        app: test-kluster
     spec:
       containers:
-      - name: test-node
-        image: gcr.io/smartleep-app/test-node
+      - name: test-kluster
+        image: gcr.io/smartleep-app/test-kluster
         imagePullPolicy: Always
