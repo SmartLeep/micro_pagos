@@ -13,7 +13,7 @@ spec:
         app: test-node
     spec:
       containers:
-      - name: test-node
-        image: gcr.io/smartleep-app/test-node
+      - image: gcr.io/smartleep-app/test-node
+        name: test-node
         imagePullPolicy: Always
         
