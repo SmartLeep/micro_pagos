@@ -8,4 +8,4 @@ spec:
     - port: 80
       targetPort: 8081
   selector:
-    app: test-kluster
+    app: test-node
