@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-node
+  name: testnode
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test-node
+      app: testnode
   template:
     metadata:
       labels:
-        app: test-node
+        app: testnode
     spec:
       containers:
       - image: gcr.io/smartleep-app/test-node
