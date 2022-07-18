@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: test-kluster
-        image: gcr.io/smartleep-app/test-kluster
+        image: gcr.io/smartleep-app/test-node
         imagePullPolicy: Always
         
